@@ -6,6 +6,7 @@ define('SHOP_TD',get_template_directory().'/');
 function shop_script(){
     //css
     wp_enqueue_style('swiper',SHOP_TDU.'assets/css/swiper.css',[],'1.1.1');
+    wp_enqueue_style('bootstrap',SHOP_TDU.'assets/css/bootstrap.rtl.min.css',[],'1.1.1');
     wp_enqueue_style('custom-style',SHOP_TDU.'assets/css/style.css',[],'1.0.0');
     //js
     wp_enqueue_script('swiper',SHOP_TDU.'assets/js/swiper.js',[],'1.0.0',true);
